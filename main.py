@@ -22,3 +22,6 @@ net = gman_net()
 
 train_loss_tracker = tf.keras.metrics.MeanSquaredError(name = "train loss")
 val_loss_tracker = tf.keras.metrics.MeanSquaredError(name = "val loss")
+
+
+train_model(epochs, train, val, net, train_loss_tracker, val_loss_tracker, optimizer)
