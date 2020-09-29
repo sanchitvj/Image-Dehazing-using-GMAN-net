@@ -1,6 +1,6 @@
 # Image-Dehazing-using-GMAN-net  
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/LICENSE)   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)   [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/LICENSE)   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)   
 
 ## Introduction  
 Generic Model-Agnostic Convolutional Neural Network(GMAN) is a convolutional neural network proposed for haze removal and clear image restoration. It is an end-to-end deep learning system that employs the encoder-decoder network for denoising image. I've used Kaggle notebook for the purpose of implementation and training. Dataset used for training and validation is SOTS outdoor [available here](https://www.kaggle.com/wwwwwee/dehaze).  
