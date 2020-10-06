@@ -7,6 +7,8 @@ Generic Model-Agnostic Convolutional Neural Network(GMAN) is a convolutional neu
 
 **Detailed explanation and documentation [here](tinyurl.com/gman-dehaze-net).**
 
+Note: Incase notebook is not loading on GitHub, you can check notebook with validation output upto 10 epochs [here](https://nbviewer.jupyter.org/github/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/Notebook/gman-net-for-image-dehazing.ipynb).  
+
 ## Requirements  
 - Python(3.6+)  
 - Tensorflow(2+)  
