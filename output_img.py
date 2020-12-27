@@ -3,7 +3,7 @@
 
 
 import matplotlib.pyplot as plt
-from aod_net import dehaze_net
+from dehaze_net import gman_net
 
 model = gman_net()
 
