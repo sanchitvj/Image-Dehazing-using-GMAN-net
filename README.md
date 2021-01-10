@@ -5,7 +5,7 @@
 ## Introduction  
 Generic Model-Agnostic Convolutional Neural Network(GMAN) is a convolutional neural network proposed for haze removal and clear image restoration. It is an end-to-end deep learning system that employs the encoder-decoder network for denoising image. I've used Kaggle notebook for the purpose of implementation and training. Dataset used for training and validation is SOTS outdoor [available here](https://www.kaggle.com/wwwwwee/dehaze).  
 
-**Detailed explanation and documentation [here](tinyurl.com/gman-dehaze-net).**
+**Detailed explanation and documentation [here](https://tinyurl.com/gman-dehaze-net).**
 
 Note: Incase notebook is not loading on GitHub, you can check notebook with validation output upto 10 epochs [here](https://nbviewer.jupyter.org/github/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/Notebook/gman-net-for-image-dehazing.ipynb).  
 
