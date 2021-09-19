@@ -6,6 +6,7 @@
 Generic Model-Agnostic Convolutional Neural Network(GMAN) is a convolutional neural network proposed for haze removal and clear image restoration. It is an end-to-end deep learning system that employs the encoder-decoder network for denoising image. I've used Kaggle notebook for the purpose of implementation and training. Dataset used for training and validation is SOTS outdoor [available here](https://www.kaggle.com/wwwwwee/dehaze).  
 
 **Detailed explanation and documentation [here](https://tinyurl.com/gman-dehaze-net).**
+**Modified model along with web app and deployment code will be there soon.** 
 
 Note: Incase notebook is not loading on GitHub, you can check notebook with validation output upto 10 epochs [here](https://nbviewer.jupyter.org/github/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/Notebook/gman-net-for-image-dehazing.ipynb).  
 
@@ -16,10 +17,11 @@ Note: Incase notebook is not loading on GitHub, you can check notebook with vali
 
 ## How to use on your images
 1. Download the [saved model](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/tree/master/saved_model).  
-2. Give model path and image path to [test.py](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/test.py) and run.  
+2. ```pip install -r requirements.txt```
+3. Give model path and image path to [test.py](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/test.py) and run.  
 (Note: Saved model folder, test.py and images should be in same folder.)  
 
-## Evaluation  
+## Evaluation Results  
 I've used naturally hazed images downloaded randomly from google and some images are from dataset. You can see the dehazed test images against hazy images [here](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/tree/master/results/test%20results), some of them are below. Dehazed test images with good resolution are [available here](https://drive.google.com/drive/folders/1UxGa7cpHT9rHrmdKPYje15lJeMJnWyiZ?usp=sharing).  
 
 ![test_104](https://github.com/sanchitvj/Image-Dehazing-using-GMAN-net/blob/master/results/test%20results/test_104.png)  

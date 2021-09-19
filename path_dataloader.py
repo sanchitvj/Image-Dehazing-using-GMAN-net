@@ -5,7 +5,7 @@
 import tensorflow as tf
 import glob
 import random
-from preprocess_img import load_img
+from preprocess_image import load_image
 
 
 # function to get the path of individual image.

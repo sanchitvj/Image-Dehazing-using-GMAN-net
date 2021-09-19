@@ -4,6 +4,7 @@
 import tensorflow as tf
 import time
 from output_img import display_img
+from tensorflow.keras.losses import mean_squared_error
 
 
 def train_model(epochs, train, val, net, train_loss_tracker, val_loss_tracker, optimizer):

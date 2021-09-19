@@ -1,5 +1,5 @@
 
-
+import tensorflow as tf
 from path_dataloader import data_path, dataloader
 from tensorflow.keras.losses import mean_squared_error
 from tensorflow.keras.optimizers import Adam
